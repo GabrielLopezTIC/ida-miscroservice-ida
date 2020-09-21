@@ -7,6 +7,7 @@ public class FileStorageProperties {
     
     private String uploadDir;
     private String generatedDir;
+    private String logsDir;
     
     
     public String getUploadDir() {
@@ -21,7 +22,11 @@ public class FileStorageProperties {
     public void setGeneratedDir(String generatedDir) {
         this.generatedDir = generatedDir;
     }
-    
-    
-
+    public String getLogsDir() {
+        return logsDir;
+    }
+    public void setLogsDir(String logsDir) {
+        this.logsDir = logsDir;
+    }
+   
 }
